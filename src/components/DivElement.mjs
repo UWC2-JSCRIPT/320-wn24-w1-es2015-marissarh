@@ -1,5 +1,5 @@
 // Import HTMLElement here
-import HTMLElement from './HTMLElement.js';
+import HTMLElement from './HTMLElement.mjs';
 
 // Define class here
 class DivElement extends HTMLElement {

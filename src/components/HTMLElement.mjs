@@ -8,7 +8,7 @@ class HTMLElement {
   render() {
     const someWords = new HTMLElement('p', 'These are words made out of letters');
     console.log(someWords.render());
-    return (HTMLElement);
+    return (new HTMLElement);
   }
 }
 // Export class here
