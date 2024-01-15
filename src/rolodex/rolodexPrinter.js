@@ -1,8 +1,7 @@
 import people from './people.json';
 
 people((person) => {
-  const { email } = person;
-  const { phone } = person;
+  const { email, phone } = person;
   const { name } = person.split(' ');
   const firstName = name[0];
   const lastName = name[1];
