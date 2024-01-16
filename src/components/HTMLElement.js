@@ -6,10 +6,11 @@ class HTMLElement {
   }
 
   render() {
-    const someWords = new HTMLElement('p', 'These are words made out of letters');
-    console.log(someWords.render());
-    return (new HTMLElement);
+    return `<${this.tag}>${this.content}</${this.tag}>`;
   }
+  
 }
+const someWords = new HTMLElement('p', 'These words are made out of letters');
+    console.log(someWords.render());
 // Export class here
 export default HTMLElement;
