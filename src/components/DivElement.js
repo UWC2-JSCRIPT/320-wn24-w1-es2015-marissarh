@@ -8,10 +8,9 @@ class DivElement extends HTMLElement {
     this.content = content;
   }
 }
-  
-    const wordsAdded = new DivElement('These letters spell words');
-    console.log(wordsAdded.render());
-  
+
+const wordsAdded = new DivElement('These letters spell words');
+console.log(wordsAdded.render());
 
 // Export class here
 export default DivElement;
